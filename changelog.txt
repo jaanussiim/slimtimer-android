@@ -1,0 +1,2 @@
+Version 0.5.1
+Added: better support for different screen sizes

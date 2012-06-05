@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">mTimer</string>
+	<string name="create_account_link">&lt;a
+		href=&quot;http://www.slimtimer.com/&quot;&gt;Create SlimTimer
+		account&lt;/a&gt;</string>
+	<string name="edit_entry_action_complete">Complete entry</string>
+	<string name="edit_entry_action_edit">Edit entry</string>
+	<string name="edit_entry_comment_label">Comments</string>
+	<string name="edit_entry_menu_complete">Complete</string>
+	<string name="edit_entry_menu_save">Save</string>
+	<string name="edit_entry_tags_label">Tags</string>
+	<string name="edit_entry_task_label">Task</string>
+	<string name="edit_task_button_cancel">Cancel</string>
+	<string name="edit_task_button_save">Save</string>
+	<string name="edit_task_completed_checkbox">Completed</string>
+	<string name="edit_task_name_label">Name</string>
+	<string name="email_label">Email</string>
+	<string name="entries_context_menu_complete">Complete entry</string>
+	<string name="entries_context_menu_delete">Delete entry</string>
+	<string name="entries_list_no_entries_found">No entries found</string>
+	<string name="entries_list_upload_complete">Entries upload complete</string>
+	<string name="entries_menu_back">Back to tasks</string>
+	<string name="entries_menu_upload_completed">Upload completed</string>
+	<string name="entries_upload_error">Could not upload entries. Please try again later
+	</string>
+	<string name="exit_button_label">Exit</string>
+	<string name="logging_in_message">Logging in</string>
+	<string name="login">Login</string>
+	<string name="login_button_label">Login</string>
+	<string name="login_error_authentication">Authentication error</string>
+	<string name="login_remember_label">Remember me</string>
+	<string name="manage_tasks_context_menu_complete">Complete task</string>
+	<string name="manage_tasks_context_menu_delete">Delete task</string>
+	<string name="manage_tasks_context_menu_incomplete">Incomplete task</string>
+	<string name="manage_tasks_context_menu_undelete">Undelete task</string>
+	<string name="manage_tasks_menu_add">Add task</string>
+	<string name="manage_tasks_menu_sync">Sync with server</string>
+	<string name="manage_tasks_sync_complete">Synchronization complete</string>
+	<string name="manage_tasks_sync_error">Synchronization error. Please try again later
+	</string>
+	<string name="manage_tasks_synchronizing_message">Synchronizing</string>
+	<string name="menu_logout">Logout</string>
+	<string name="menu_manage_tasks">Manage tasks</string>
+	<string name="menu_show_entries">Show entries</string><string name="mini_guide_button_ok">Ok</string><string name="mini_guide_title">Mini guide ;)</string>
+	<string name="new_user_mini_guide">Click on task to start/stop it.\n\nUse long click on tasks and entries.\n\nAnd try to keep Your tasks in sync with server.</string><string name="password_label">Password</string>
+	<string name="retrieving_tasks_message">Retrieving tasks from SlimTimer server</string>
+	<string name="tasks_list_context_menu_cancel">Cancel entry</string>
+	<string name="tasks_list_context_menu_complete">Complete</string>
+	<string name="tasks_list_context_menu_start">Start</string>
+	<string name="uploading_entries_message">Uploading entries...</string>
+	
+
+
+<string name="login_error_network">Network error</string>
+</resources>

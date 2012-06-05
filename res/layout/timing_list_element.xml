@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="10dip" android:paddingLeft="10dip"
+	android:paddingRight="10dip" android:paddingBottom="10dip"
+	android:orientation="vertical" android:background="@color/screen_background">
+
+	<ViewFlipper android:id="@+id/tasks_run_flip"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_gravity="center_vertical" android:orientation="vertical"
+			android:background="@color/screen_background" android:id="@+id/task_view_default">
+			<TextView android:text="Task name replaced with real data!"
+				android:id="@+id/task_name_default" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textAppearance="@style/default_task_text_style" />
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical" android:background="@color/running_task_background"
+			android:id="@+id/task_view_running">
+			<TextView android:text="Task name replaced with real data!"
+				android:id="@+id/task_name_running" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textAppearance="@style/running_task_text_style" />
+			<Chronometer android:id="@+id/task_run_time"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#000000" />
+		</LinearLayout>
+	</ViewFlipper>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="default_highlight_background">#FFFF88</color>
+	<color name="default_task_background">#FFFFFF</color>
+	<color name="entry_list_active_background">#FFFF88</color>
+	<color name="entry_list_default_background">#E6F2FF</color>
+	<color name="entry_list_unfinished_background">#DDDDDD</color>
+	<color name="login_text_color">#000000</color>
+
+	<color name="manage_tasks_complete_background">#DDDDDD</color>
+	<color name="manage_tasks_complete_selected_background">#FFFF88</color>
+	<color name="manage_tasks_default_background">#FFFFFF</color>
+	<color name="manage_tasks_default_selected_background">#FFFF88</color>
+	<color name="manage_tasks_deleted_background">#FF8888</color>
+	<color name="running_highlight_background">#FF8888</color>
+	<color name="running_task_background">#DAFFCD</color>
+	<color name="screen_background">#FFFFFF</color>
+
+
+
+
+
+
+
+
+
+
+
+	<color name="login_screen_background">#CCE6FF</color>
+</resources>

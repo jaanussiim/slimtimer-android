@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- TODO jaanus : maybe can simplify -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="bottom|center_horizontal">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="320dip" android:layout_height="wrap_content"
+		android:orientation="vertical" android:background="@drawable/edit_entry_background">
+		<TextView android:text="Complete/edit entry" android:id="@+id/edit_entry_action_label"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="@style/edit_entry_action" />
+		<TextView android:text="@string/edit_entry_task_label"
+			android:id="@+id/edit_entry_task_label" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<Spinner android:id="@+id/edit_entry_tasks_spinner"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="May 06 " android:id="@+id/edit_entry_task_run_date"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textAppearance="@style/edit_entry_time" />
+			<TextView android:text="12:30-" android:id="@+id/edit_entry_task_start_time"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textAppearance="@style/edit_entry_time" />
+			<TextView android:text="14:30" android:id="@+id/edit_entry_task_end_time"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textAppearance="@style/edit_entry_time" />
+		</LinearLayout>
+		<TextView android:text="@string/edit_entry_tags_label"
+			android:id="@+id/edit_entry_tags_label" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<MultiAutoCompleteTextView android:text="tags, will, be, done, here"
+			android:id="@+id/edit_entry_tags" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:singleLine="true" />
+		<TextView android:text="@string/edit_entry_comment_label"
+			android:id="@+id/edit_entry_comments_label" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<EditText android:text="Comment will be here" android:id="@+id/edit_entry_comment"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:lines="2" android:gravity="top" />
+	</LinearLayout>
+</LinearLayout>

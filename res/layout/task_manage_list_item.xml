@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="10dip" android:paddingLeft="10dip"
+	android:paddingRight="10dip" android:paddingBottom="10dip"
+	android:background="@color/screen_background">
+	
+	<TextView android:text="Task name replaced with real data!"
+		android:id="@+id/manage_task_name" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textAppearance="@style/default_task_text_style" />
+</LinearLayout>
