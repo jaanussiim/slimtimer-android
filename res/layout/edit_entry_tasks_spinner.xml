@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<TextView android:text="Task name" android:id="@+id/spinner_task_name"
-		android:layout_width="fill_parent" android:layout_height="wrap_content"
-		android:textAppearance="@style/edit_entry_tasks_spinner"
-		android:paddingTop="5dip" android:paddingBottom="5dip" />
-</LinearLayout>
