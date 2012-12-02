@@ -17,21 +17,7 @@
 package com.jaanussiim.slimtimer;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
 
-public class SlimtimerActivity extends Activity {
-  /**
-   * Called when the activity is first created.
-   */
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
+public class LoginActivity extends Activity {
 
-    Intent nextActivityStart;
-    nextActivityStart = new Intent(SlimtimerActivity.this, LoginActivity.class);
-
-    startActivity(nextActivityStart);
-    finish();
-  }
 }

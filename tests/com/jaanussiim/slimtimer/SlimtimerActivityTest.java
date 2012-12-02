@@ -16,18 +16,35 @@
 
 package com.jaanussiim.slimtimer;
 
+import android.content.Intent;
 import com.xtremelabs.robolectric.RobolectricTestRunner;
+import com.xtremelabs.robolectric.shadows.ShadowActivity;
+import com.xtremelabs.robolectric.shadows.ShadowIntent;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.hamcrest.CoreMatchers.equalTo;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertThat;
+import static com.xtremelabs.robolectric.Robolectric.shadowOf;
 
 @RunWith(RobolectricTestRunner.class)
 public class SlimtimerActivityTest {
+  private SlimtimerActivity activity;
+
+  @Before
+  public void setUp() {
+    activity = new SlimtimerActivity();
+  }
+
   @Test
-  public void shouldHaveHappySmiles() throws Exception {
-    String appName = new SlimtimerActivity().getResources().getString(R.string.app_name);
-    assertThat(appName, equalTo("mTimer"));
+  public void shouldHavePushedLoginActivity() throws Exception {
+    activity.onCreate(null);
+    ShadowActivity shadowActivity = shadowOf(activity);
+    Intent startedIntent = shadowActivity.getNextStartedActivity();
+    assertNotNull("Should have started intent", startedIntent);
+    ShadowIntent shadowIntent = shadowOf(startedIntent);
+    assertThat(shadowIntent.getComponent().getClassName(), equalTo(LoginActivity.class.getName()));
   }
 }
